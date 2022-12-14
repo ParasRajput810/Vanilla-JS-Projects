@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+*{
+    margin: auto;
+    padding: auto;
+    
+}
+body{
+    background-image: url('/uses/david-martin-6NpYOFB3VCI-unsplash.jpg');
+    background-position: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170vh;
+    height: 100vh;
+    
+}
+
+.keys{
+    border: 2px solid white;
+    backdrop-filter: blur(8px);
+    height: 80px;
+    width: 80px;
+    text-align: center;
+}
+h1{
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+p{
+    color: aqua;
+    font-size: 10px;
+    margin-top: 5px;
+}
+.keys:hover{
+    background-color: yellow;
+    cursor: pointer;
+    -webkit-text-stroke: 0.1px black;
+}
+.keys:active{
+    border: 7px solid brown;
+}
